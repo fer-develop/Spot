@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<!-- Codificación de los caracteres que se mostrarán en el sitio web -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<!-- Compatibilidad con navegadores -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Mantener el aspecto del sitio desde el tamaño mas pequeño -->
+	<title>Templete Básico de Bootstrap 3</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Mandamos llamar los estilos css de bootstrap -->
+	<link rel="stylesheet" href="css/styles.css">
+	<!-- Mandamos llamar los estilos css personalizados para el sitio -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg"
+	 crossorigin="anonymous">
+	<!-- Si fuera necesario tambien se pueden agregar referencia a otros recursos por ejemplo fuentes (Google Fonts) o iconos (Font Aewesome), etc. -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+
+<body>
+	<!-- A partir de aqui podemos empezar a contruir la estructura HTML que servira para mostrar el contenido de nuestra página web -->
+
+	<div class="container-fluid">
+
+		<div class="navbar navbar-fixed-top">
+			<div id="cabecera" class="row">
+				<div class="container">
+					<div id="logo" class="col-md-6">
+						<h1>SP<i class="fas fa-circle"></i>T</h1>
+					</div>
+					<div id="main-nav" class="col-md-6">
+						<ul class="nav nav-pills pull-right">
+							<li role="presentation" class="active">
+								<a href="#">INICIO</a>
+							</li>
+							<li role="presentation">
+								<a href="#">ABOUT</a>
+							</li>
+							<li role="presentation">
+								<a href="#">SERVICES</a>
+							</li>
+							<li role="presentation">
+								<a href="#">WORKS</a>
+							</li>
+							<li role="presentation">
+								<a href="#">
+									<span class="glyphicon glyphicon-envelope"></span>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="banner" class="row">
+			<div class="container">
+				<div class="col-xs-12">
+					<h1> It Doesn't Take a
+						<br> Rocket
+						<b>Scientist</b>
+					</h1>
+					<h2>It takes a designer</h2>
+				</div>
+			</div>
+		</div>
+
+		<div id="parrafos" class="row">
+			<div class="container">
+				<div class="col-md-4">
+					<h3>
+						<i class="fas fa-heart"></i>
+					</h3>
+					<h4 class="titulo">Design</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, consectetur veritatis ipsum, odit ad minima, asperiores
+						quidem voluptatem error expedita blanditiis, soluta fugiat iste. Voluptatum ab est vel quo odio.</p>
+				</div>
+				<div class="col-md-4">
+					<h3>
+						<i class="fas fa-laptop"></i>
+					</h3>
+					<h4 class="titulo">Bootstrap</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus aliquam quam maiores facere est veniam id quas. Ex error,
+						sequi, illum ipsum est, id nesciunt magni laudantium, voluptate corrupti veritatis.</p>
+				</div>
+				<div class="col-md-4">
+					<h3>
+						<i class="fas fa-trophy"></i>
+					</h3>
+					<h4 class="titulo">Support</h4>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet libero quo, qui et quos laboriosam rerum. Dolores
+						ipsam dolor at, modi amet, sed aut asperiores, repellendus facilis aliquid impedit, et.</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="telefonos" class="row">
+			<div class="container">
+				<div class="col-xs-12">
+					<h3 class="titulo">Latest Works</h3>
+				</div>
+				<div class="col-md-4">
+					<img class="img img-responsive center-block" src="img/p01.png" alt="">
+				</div>
+				<div class="col-md-4">
+					<img class="img img-responsive center-block" src="img/p02.png" alt="">
+				</div>
+				<div class="col-md-4">
+					<img class="img img-responsive center-block" src="img/p03.png" alt="">
+				</div>
+			</div>
+		</div>
+
+		<div id="descripcion" class="row">
+			<div class="container">
+				<div class="col-xs-10 col-xs-offset-1">
+					<h3 class="titulo">we create first class design</h3>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores, sit quos? Aliquam veritatis facilis sequi error
+						perferendis tempore saepe reiciendis deserunt eaque. Quos, esse! Laboriosam tenetur veritatis beatae molestias nam!</p>
+					<img class="img img-responsive" src="img/munter.png" alt="">
+				</div>
+			</div>
+		</div>
+
+		<div id="clientes" class="row">
+			<div class="container">
+				<div class="col-xs-12">
+					<h3 class="titulo">our awesome clients</h3>
+				</div>
+				<div class="col-xs-2 col-xs-offset-1">
+					<img src="img/c01.gif" alt="">
+				</div>
+				<div class="col-xs-2">
+					<img src="img/c02.gif" alt="">
+				</div>
+				<div class="col-xs-2">
+					<img src="img/c03.gif" alt="">
+				</div>
+				<div class="col-xs-2">
+					<img src="img/c04.gif" alt="">
+				</div>
+				<div class="col-xs-2">
+					<img src="img/c05.gif" alt="">
+				</div>
+			</div>
+		</div>
+
+		<div id="mensaje" class="row">
+			<div class="container">
+				<div class="col-xs-10 col-xs-offset-1">
+					<h3 class="titulo">we are storytellers. brands are our subjects. design is our voice</h3>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, ea laborum, tenetur aperiam est aspernatur officia
+						expedita repellendus aliquid quo animi dolores alias iure doloremque dicta placeat! Doloremque, voluptate maiores?</p>
+				</div>
+			</div>
+		</div>
+
+		<div id="pie" class="row">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-1 col-xs-offset-5">
+						<h1>
+							<i class="fab fa-twitter"></i>
+						</h1>
+					</div>
+					<div class="col-xs-1">
+						<h1>
+							<i class="fab fa-facebook-f"></i>
+						</h1>
+					</div>
+					<div class="col-xs-1">
+						<h1>
+							<i class="fas fa-basketball-ball"></i>
+						</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

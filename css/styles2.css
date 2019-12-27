@@ -1,0 +1,7 @@
+#cabecera{
+    color: aqua;
+    background-color: black;
+}
+#main-nav ul li a:hover{
+    background-color: blue;
+}

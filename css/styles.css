@@ -1,0 +1,134 @@
+body{
+    background-color:#fff;   
+    padding-top:70px;
+}
+#cabecera{
+    background-color: #000;
+    color:#fff;
+    padding-bottom: 15px;
+}
+#cabecera h1{
+    font-size: 24px;
+    font-weight: bold;
+}
+#cabecera i{
+    color: #ff7878;
+}
+#main-nav{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#main-nav .nav .active a{
+    background-color: #ff7878;
+}
+#main-nav ul li a{
+    color:#eee;
+}
+#main-nav ul li a:hover{
+    background-color:#ff7878;
+    transition: background .7s;
+}
+#logo h1{
+    margin-left: 30px;
+}
+#logo span{
+    color:#ff7878;
+}
+#banner{
+    min-height: 550px;
+    background-position: center;
+    background-image: url('../img/header-bg.jpg');
+    text-align: center;
+    color: white;
+}
+#banner h1{
+    margin-top: 150px;
+    font-size: 80px;
+    font-family: 'Raleway', sans-serif;
+}
+#banner h2{
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#parrafos{
+    text-align:center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+#parrafos h3 i{
+    color: #ff7878;
+}
+.titulo{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+/*#telefonos div img{
+    padding-left: 20px;
+}*/
+#parrafos p{
+    color: #999;
+}
+#parrafos p:hover{
+    color:#000;
+    transition: color .5s;
+}
+#telefonos{
+    background-color: #ebebeb;
+}
+#telefonos img:hover{
+    transform: rotate(-10deg);
+    /*transform: scale(1.1);*/
+    /*transform: skew(10deg);*/
+    transition: transform 1s;
+}
+#telefonos img:not(:hover){
+    transform: rotate(0deg);
+    /*transform: scale(1);*/  
+    /*transform: skew(0deg);*/  
+    transition: transform 2s;
+}
+#descripcion{
+    padding-top: 50px;
+}
+#descripcion p{
+    color:#999;
+    text-align: center;
+}
+#descripcion img{
+    margin-top: 100px;
+}
+#clientes{
+    background-color: #ebebeb;
+}
+#clientes h3{
+    margin-bottom: 0;
+}
+#mensaje{
+    background-color: #ff7878;
+    color:white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+#pie{
+    background-color: black;
+    color:#fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 40px;
+}
+#pie i{
+    font-size: 24px;
+}
+#pie i:hover{
+    color: #ff7878;
+    transition: color 1s;
+}
+
+
+
